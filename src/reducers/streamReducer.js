@@ -9,6 +9,9 @@ import {
 
 export default (state = {}, action) => {
   switch (action.type) {
+    case FETCH_STREAMS:
+      return { ...state, ..._.mapKeys(action.payload, 'id') }
+      break
     case FETCH_STREAM:
       return { ...state, [action.payload.id]: action.payload }
       break
@@ -20,6 +23,7 @@ export default (state = {}, action) => {
       break
     case DELETE_STREAM:
       return _.omit(state, action.payload)
+      break
     default:
       return state
   }
