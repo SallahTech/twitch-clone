@@ -15,12 +15,22 @@
       "description": "there you go",
       "id": 3
     },
-    
     {
       "title": "Build chat App",
       "description": "In this stream we are gonna build a chat app using react",
       "userId": "113164929912280460695",
       "id": 4
+    },
+    {
+      "title": "programmatic navigation",
+      "description": "you should not see this on the form page",
+      "id": 5
+    },
+    {
+      "title": "Me Streaming components reuse",
+      "description": "let's refactor some components and hope that it works with a patch request",
+      "userId": "113164929912280460695",
+      "id": 6
     }
   ]
 }
